@@ -1,9 +1,8 @@
-#include "core/core.hpp"
+#include "Sandbox.hpp"
 
-#include <iostream>
+#include <memory>
 
-int main()
+std::unique_ptr<Quantum::core::Application> createApplication()
 {
-	std::cout << "Sandbox: " << std::endl;
-	Core::print();
+	return std::make_unique<Sandbox>();
 }
