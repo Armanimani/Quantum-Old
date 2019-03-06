@@ -21,6 +21,6 @@ include_directories(${QUANTUM_GOOGLETEST_DIR}/googletest/include ${QUANTUM_GOOGL
 # unit test files
 file(GLOB QUANTUM_UNIT_TESTS_ENGINE_SOURCE "engine/*.?pp")
 
-add_executable(Quantum_unitTests ${QUANTUM_UNIT_TESTS_ENGINE_SOURCE})
+add_executable(Quantum-unitTests ${QUANTUM_UNIT_TESTS_ENGINE_SOURCE})
 
-target_link_libraries(Quantum_unitTests gtest gtest_main)
+target_link_libraries(Quantum-unitTests gtest gtest_main)
