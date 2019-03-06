@@ -1,6 +1,6 @@
 #pragma once
 
-#include <core/quantum.hpp>
+#include <quantum.hpp>
 
 class Sandbox : public Quantum::core::Application
 {
