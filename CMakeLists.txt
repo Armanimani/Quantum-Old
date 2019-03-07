@@ -88,7 +88,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/${QUANTUM_BIN_DIRECTORY})
 set(QUANTUM_EXTERNAL_LIBRARY_DIRECTORY ${CMAKE_SOURCE_DIR}/external)
 
 # Add include directories
-include_directories("${CMAKE_CURRENT_LIST_DIR}/engine")
+include_directories(${CMAKE_CURRENT_LIST_DIR}/engine)
 
 # Add subdirectories
 add_subdirectory(engine)

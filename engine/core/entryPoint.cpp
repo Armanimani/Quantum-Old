@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Application.hpp"
+#include "application/Application.hpp"
 #include <memory>
 
 extern std::unique_ptr<Quantum::core::Application> createApplication();

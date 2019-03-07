@@ -1,5 +1,4 @@
 #include "Application.hpp"
-
 #include <iostream>
 
 namespace Quantum::core

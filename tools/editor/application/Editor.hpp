@@ -4,7 +4,7 @@
 
 namespace Quantum::editor
 {
-	class Application : public Quantum::core::Application
+	class Editor : public Quantum::core::Application
 	{
 
 	};
