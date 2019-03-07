@@ -18,9 +18,3 @@ extern std::unique_ptr<Quantum::core::Application> createApplication();
 #else
 	#error Unknown plateform!
 #endif
-
-#ifdef QUANTUM_BUILD_DEBUG
-const int a = 1;
-#else
-const int a = 10;
-#endif
